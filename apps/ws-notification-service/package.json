@@ -1,0 +1,23 @@
+{
+    "name": "ws-notification-service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@repo/typescript-config": "workspace:*",
+        "@types/ws": "^8.18.1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.5.0",
+        "ioredis": "^5.6.1",
+        "kafkajs": "^2.2.4",
+        "uuid": "^11.1.0",
+        "ws": "^8.18.2"
+    }
+}
